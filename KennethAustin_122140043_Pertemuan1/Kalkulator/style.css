@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+hr{
+    display: none;
+}
+
+.event-demo {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px; /* Lebih lebar */
+    margin: auto;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+#sapa-button {
+    background-color: #1e65d3;
+    color: white;
+}
+
+#sapa-button:hover {
+    background-color: #0056b3;
+}
+
+#sapa-output {
+    background-color: #e7f1ff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.kalkulator-container {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    gap: 15px; /* Jarak lebih luas */
+    justify-content: center;
+}
+
+button {
+    width: 120px; /* Lebih besar */
+    height: 50px;
+    font-size: 20px;
+}
+
+#btn-tambah {
+    background-color: #43A047; /* Hijau lebih cerah */
+    color: white;
+}
+
+#btn-tambah:hover {
+    background-color: #4CAF50;
+}
+
+#btn-kurang {
+    background-color: #f2b600; /* Kuning lebih cerah */
+    color: white;
+}
+
+#btn-kurang:hover {
+        background-color: #FFCA28;
+}
+
+#btn-kali {
+    background-color: #a659e7; /* Ungu cerah */
+    color: white;
+}
+
+#btn-kali:hover {
+    background-color: #BA68C8;
+}
+
+#btn-bagi {
+    background-color: #ea4444; /* Merah cerah */
+    color: white;
+}
+
+#btn-bagi:hover {
+    background-color: #E57373;
+}
+
+#btn-pangkat { 
+    background-color: #ff5722; 
+    color: white; 
+}
+
+#btn-pangkat:hover { 
+    background-color: #ff7043; 
+}
+
+#btn-akar { 
+    background-color: #009688; 
+    color: white; 
+}
+
+#btn-akar:hover { 
+    background-color: #26a69a; 
+}
+
+#btn-modulus { 
+    background-color: #607d8b; 
+    color: white; 
+}
+
+#btn-modulus:hover { 
+    background-color: #78909c; 
+}
+
+#hasil-kalkulator {
+    background-color: #eafaea;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
