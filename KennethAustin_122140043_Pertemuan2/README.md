@@ -17,7 +17,7 @@ Aplikasi bersifat interaktif dan menyimpan data secara lokal menggunakan `localS
 
 ---
 
-![Screenshot Dashboard Tugas](screenshot.png)
+![Screenshot Dashboard Tugas](Screenshot.png)
 
 
 ---
