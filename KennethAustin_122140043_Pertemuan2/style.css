@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #007BFF;
+}
+
+#task-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#task-input, #deadline-input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#tasks-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.task {
+  background-color: #fff;
+  padding: 1rem;
+  border-left: 6px solid #007BFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.task:hover {
+  transform: scale(1.01);
+}
+
+.task input[type="checkbox"] {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.task span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.task .completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task small {
+  display: block;
+  color: #666;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.task button {
+  background-color: #6c757d;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.task button:first-of-type {
+  background-color: #ffc107;
+}
+
+.task button:last-of-type {
+  background-color: #dc3545;
+}
+
+.task button:hover {
+  opacity: 0.9;
+}
+
+/* Placeholder custom untuk input type=date */
+#deadline-input:invalid::before {
+  content: attr(placeholder);
+  color: #999;
+  font-style: italic;
+}
+
+#deadline-input:focus::before,
+#deadline-input:valid::before {
+  content: '';
+}
