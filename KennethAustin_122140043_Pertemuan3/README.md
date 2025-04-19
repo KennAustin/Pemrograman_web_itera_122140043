@@ -19,9 +19,11 @@ Book Manager adalah aplikasi web sederhana untuk mengelola daftar bacaan Anda. A
    cd Pemrograman_web_itera_122140043/KennethAustin_122140043_Pertemuan3
    
 3. Instal dependensi:
+   
    npm install
    
-4. Jalankan aplikasi:
+5. Jalankan aplikasi:
+   
    npm start
 
 ---
