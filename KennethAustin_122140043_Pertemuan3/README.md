@@ -1,4 +1,5 @@
 📚 Book Manager
+
 Book Manager adalah aplikasi web sederhana untuk mengelola daftar bacaan Anda. Aplikasi ini memungkinkan pengguna untuk menambahkan, memfilter, dan melacak status buku (sudah dibaca atau belum). Dibuat dengan React dan disimpan secara lokal di browser menggunakan localStorage, aplikasi ini cepat, ringan, dan tidak memerlukan backend.
 
 ---
