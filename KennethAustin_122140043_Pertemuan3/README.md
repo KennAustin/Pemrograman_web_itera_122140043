@@ -32,6 +32,7 @@ Book Manager adalah aplikasi web sederhana untuk mengelola daftar bacaan Anda. A
 ---
 
 ⚛️ Fitur React yang Digunakan
+
 useState	 => Mengelola state lokal komponen, Contoh implementasinya : const [books, setBooks] = useState([]);
 
 useEffect => Menangani side effects (sync dengan localStorage), Contoh implementasinya :	useEffect(() => { localStorage.setItem('books', JSON.stringify(books)); 
