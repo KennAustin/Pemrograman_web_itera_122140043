@@ -25,4 +25,18 @@ Book Manager adalah aplikasi web sederhana untuk mengelola daftar bacaan Anda. A
 ---
 
 🖼️ Screenshot Antarmuka
+![Tampilan Beranda](./screenshots/home.png)
+![Statistik Buku](./screenshots/stats.png)
+
+---
+
+⚛️ Fitur React yang Digunakan
+Fitur	Kegunaan	Contoh Implementasi
+useState	Mengelola state lokal komponen	const [books, setBooks] = useState([]);
+useEffect	Menangani side effects (sync dengan localStorage)	useEffect(() => { localStorage.setItem('books', JSON.stringify(books)); }, [books]);
+Context API	State management global untuk data buku	const { books, addBook } = useBooks();
+React Router v6	Navigasi multi-halaman	<Route path="/stats" element={<Stats />} />
+Custom Hooks	Logika reusable untuk localStorage dan statistik	const stats = useBookStats();
+PropTypes	Validasi props komponen	BookList.propTypes = { books: PropTypes.array.isRequired }
+Testing Library	Unit testing komponen	test('renders book list', () => { render(<BookList books={mockBooks} />); });
 
