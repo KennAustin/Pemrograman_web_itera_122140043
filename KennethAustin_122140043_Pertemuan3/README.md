@@ -33,10 +33,16 @@ Book Manager adalah aplikasi web sederhana untuk mengelola daftar bacaan Anda. A
 
 ⚛️ Fitur React yang Digunakan
 useState	 => Mengelola state lokal komponen, Contoh implementasinya : const [books, setBooks] = useState([]);
-useEffect => Menangani side effects (sync dengan localStorage), Contoh implementasinya :	useEffect(() => { localStorage.setItem('books', JSON.stringify(books)); }, [books]);
-Context API =>	State management global untuk data buku, Contoh implementasinya :	const { books, addBook } = useBooks();
-React Router v6 => Navigasi multi-halaman, Contoh implementasinya :	<Route path="/stats" element={<Stats />} />
-Custom Hooks => Logika reusable untuk localStorage dan statistik, Contoh implementasinya :	const stats = useBookStats();
-PropTypes => Validasi props komponen, Contoh implementasinya :	BookList.propTypes = { books: PropTypes.array.isRequired }
-Testing Library => Unit testing komponen, Contoh implementasinya :	test('renders book list', () => { render(<BookList books={mockBooks} />); });
 
+useEffect => Menangani side effects (sync dengan localStorage), Contoh implementasinya :	useEffect(() => { localStorage.setItem('books', JSON.stringify(books)); 
+}, [books]);
+
+Context API =>	State management global untuk data buku, Contoh implementasinya :	const { books, addBook } = useBooks();
+
+React Router v6 => Navigasi multi-halaman, Contoh implementasinya :	<Route path="/stats" element={<Stats />} />
+
+Custom Hooks => Logika reusable untuk localStorage dan statistik, Contoh implementasinya :	const stats = useBookStats();
+
+PropTypes => Validasi props komponen, Contoh implementasinya :	BookList.propTypes = { books: PropTypes.array.isRequired }
+
+Testing Library => Unit testing komponen, Contoh implementasinya :	test('renders book list', () => { render(<BookList books={mockBooks} />); });
